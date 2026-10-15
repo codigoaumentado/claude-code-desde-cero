@@ -1,0 +1,15 @@
+[project]
+name = "cuentas"
+version = "1.0.0"
+description = "Divide la cuenta de un grupo, con propina y sin perder centavos"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "--cov=cuentas --cov-branch --cov-report=term-missing --cov-fail-under=90"
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
