@@ -1,6 +1,6 @@
 ---
 name: nueva-regla
-description: Agrega o cambia una regla de negocio de cuentas con el test primero. Úsala cuando pidan una regla nueva de división, propina o redondeo.
+description: Agrega una regla de negocio con test primero (división, propina o redondeo).
 ---
 
 Regla a implementar: $ARGUMENTS

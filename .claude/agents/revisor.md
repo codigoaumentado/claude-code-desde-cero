@@ -1,6 +1,6 @@
 ---
 name: revisor
-description: Revisa un cambio antes del commit. Busca errores con dinero, casos límite sin test y mensajes de error poco claros. Úsalo después de implementar.
+description: Revisa el diff antes del commit: dinero, casos límite y mensajes de error.
 tools: Read, Grep, Glob, Bash
 ---
 
